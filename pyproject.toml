@@ -4,9 +4,12 @@ version = "0.1.0"
 description = "Modern LLMs Crash Course - Learning materials and experiments with Large Language Models"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=4.2.0",
     "huggingface-hub>=0.27.0",
+    "jaxtyping>=0.3.3",
     "jupyter>=1.1.1",
     "jupyterlab>=4.4.9",
+    "pydantic>=2.12.2",
     "regex>=2025.9.18",
     "ruff>=0.8.4",
     "torch>=2.8.0",
